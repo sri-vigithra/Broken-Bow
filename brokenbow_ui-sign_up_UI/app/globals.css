@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import 'choices.js/public/assets/styles/choices.min.css';
+
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+    display: none;
+}
