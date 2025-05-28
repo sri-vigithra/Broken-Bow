@@ -8,9 +8,9 @@ export default function ChangeImageModal({ onClose }: { onClose: () => void }) {
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-30 z-50">
       <div className="bg-white rounded-xl shadow-lg p-6 w-[350px] border-2 border-blue-500">
         <div className="mb-4">
-          <span className="text-xl font-semibold bg-yellow-200 px-2 py-1 rounded">Change Image</span>
+          <span className="text-xl font-semibold  px-2 py-1 rounded">Change Image</span>
         </div>
-        <hr className="mb-4" />
+       
         <div className="flex flex-col items-center mb-6">
           <div className="w-40 h-40 rounded-full overflow-hidden bg-gray-200 mb-4">
             <img
