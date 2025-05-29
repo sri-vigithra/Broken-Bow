@@ -102,7 +102,6 @@ export default function ProfilePage() {
                 </button>
               </div>
             </div>
-            {/* Address Section */}
             <div className="border-t mt-8 pt-6 flex items-start">
               <div className="flex items-center justify-center w-16 h-16 rounded-full bg-gray-100 mr-4">
                 <MapPin size={32} className="text-gray-500" />

@@ -4,13 +4,13 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
-import { onAuthStateChanged, signOut, User } from "firebase/auth"; // Import User type
+import { onAuthStateChanged, signOut, User } from "firebase/auth"; 
 import { auth } from "@/app/config/Firebase";
 import { useRouter } from "next/navigation";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
-  const [user, setUser] = useState<User | null>(null); // Typed state as User or null
+  const [user, setUser] = useState<User | null>(null); 
   const router = useRouter();
 
   const links = [

@@ -72,7 +72,7 @@ export default function ProfileImagePage() {
         
         <section className="flex-1">
           <div className="bg-white rounded-xl shadow p-8 flex flex-col gap-8">
-            {/* Profile Info */}
+        
             <div className="flex items-center gap-8">
               <div className="w-24 h-24 rounded-full overflow-hidden bg-gray-200">
                 <Image
