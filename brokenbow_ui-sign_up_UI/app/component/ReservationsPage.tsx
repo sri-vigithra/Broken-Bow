@@ -35,7 +35,7 @@ const reservations = [
     checkIn: "24 May",
     checkOut: "28 May",
     guests: 3,
-    paymentStatus: "Paid",
+    paymentStatus: "Paid", 
     invoiceUrl: "#",
   },
 ];
@@ -53,7 +53,7 @@ export default function ReservationsPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-     
+
       <header className="bg-white shadow-sm px-8 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-4">
           <img src="/logo.svg" alt="brokenbow" className="h-8" />
@@ -196,5 +196,5 @@ export default function ReservationsPage() {
         </section>
       </main>
     </div>
-  );
+  ); 
 }
